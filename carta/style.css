@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.card {
+    width: 400px;
+    height: 500px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 20px black;
+    margin: 50px auto;
+    position: relative;
+    top: 100px;
+
+}
+
+.header {
+    background-color: #DFDBE5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M0 0h80v80H0V0zm20 20v40h40V20H20zm20 35a15 15 0 1 1 0-30 15 15 0 0 1 0 30z' opacity='.5'%3E%3C/path%3E%3Cpath d='M15 15h50l-5 5H20v40l-5 5V15zm0 50h50V15L80 0v80H0l15-15zm32.07-32.07l3.54-3.54A15 15 0 0 1 29.4 50.6l3.53-3.53a10 10 0 1 0 14.14-14.14zM32.93 47.07a10 10 0 1 1 14.14-14.14L32.93 47.07z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    width: 100%;
+    height: 120px;
+    border-radius: 30px 0 0;
+  
+}
+
+img {
+    display: block;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    position: relative;
+    top: 70px;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%) 1;
+    border-radius: 50%;
+    border: 4px solid transparent;
+   
+
+}
+
+.body {
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 0;
+    border-top: 5px solid gray;
+    display: flex;
+    font-size: 20px;
+}
+
+.dato {
+    margin-top: 80px;
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+}
+
+.claro{
+    color: gray;
+    opacity: 0.6;
+}
+.texto{
+font-size: 35px;
+text-shadow: 0 5px 5px gray;
+}
+.numero{
+    font-size:35px;
+    font-weight:bolder;
+    text-shadow: 0 5px 5px gray;
+}
+.tipo{
+    font-size: 15px;
+    color:gray;
+}
