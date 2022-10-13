@@ -9,19 +9,18 @@ body{
     font-family: 'Oswald', sans-serif;
     text-align: center;
     align-items: center;
-    animation-name: iden;
-    animation-delay:1s ;
-    animation-direction:normal ;
-    animation-duration:20s ;
+    animation-name:ween;
+    animation-delay:1s;
+    animation-duration:20s;
     animation-iteration-count: infinite;
     justify-content: center;
     display: flex;
     font-weight: bold;
 
 }
-@keyframes iden{
+@keyframes ween{
     0%{
-        background:url(13-breaking\imagen1.jpg);
+        background:url(imagen1.jpg);
         background-size:cover;
         background-repeat: no-repeat;
         margin: 0;
@@ -30,42 +29,42 @@ body{
     }
 
 22%{
-    background:url(13-breaking\imagen2.jpg);
+    background:url(imagen2.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     margin: 0;
     height: 100vh;
 }
 40%{
-    background:url(13-breaking\imagen3.jpg);
+    background:url(imagen3.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     margin: 0;
     height: 100vh;
 }
 60%{
-    background:url(13-breaking\imagen4.jpg);
+    background:url(imagen4.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     margin: 0;
     height: 100vh;
 }
 80%{
-    background:url(13-breaking\imagen5.jpg);
+    background:url(imagen5.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     margin: 0;
     height: 100vh;
 }
 90%{
-    background:url(13-breaking\imagen6.jpg);
+    background:url(imagen6.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     margin: 0;
     height: 100vh;
 }
 100%{
-    background:url(13-breaking\375001-sepik.jpg);
+    background:url(375001-sepik.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -74,7 +73,7 @@ body{
 }
 .divFrase{
     display: block;
-    width: 60%;
+    width: 50%;
     height: auto;
     font-size: 30px;
     border-radius: 30px;
@@ -83,7 +82,7 @@ body{
     padding: 30px;
 }
 h1,p{
-    color: aliceblue;
+    color:#fff;
     opacity: 1;
     text-shadow: 0 0 1px green;
 }
